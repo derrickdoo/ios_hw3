@@ -19,6 +19,8 @@
 		39337D1D1954E5F40096974D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39337D051954E5F30096974D /* UIKit.framework */; };
 		39337D251954E5F40096974D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39337D231954E5F40096974D /* InfoPlist.strings */; };
 		39337D271954E5F40096974D /* ios_hw3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39337D261954E5F40096974D /* ios_hw3Tests.m */; };
+		39337D331954E6AD0096974D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39337D311954E6AD0096974D /* MainViewController.m */; };
+		39337D341954E6AD0096974D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39337D321954E6AD0096974D /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		39337D221954E5F40096974D /* ios_hw3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ios_hw3Tests-Info.plist"; sourceTree = "<group>"; };
 		39337D241954E5F40096974D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39337D261954E5F40096974D /* ios_hw3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_hw3Tests.m; sourceTree = "<group>"; };
+		39337D301954E6AD0096974D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		39337D311954E6AD0096974D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		39337D321954E6AD0096974D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = ../MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 		39337D071954E5F40096974D /* ios_hw3 */ = {
 			isa = PBXGroup;
 			children = (
+				39337D301954E6AD0096974D /* MainViewController.h */,
+				39337D311954E6AD0096974D /* MainViewController.m */,
+				39337D321954E6AD0096974D /* MainViewController.xib */,
 				39337D101954E5F40096974D /* AppDelegate.h */,
 				39337D111954E5F40096974D /* AppDelegate.m */,
 				39337D131954E5F40096974D /* Images.xcassets */,
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39337D0C1954E5F40096974D /* InfoPlist.strings in Resources */,
+				39337D341954E6AD0096974D /* MainViewController.xib in Resources */,
 				39337D141954E5F40096974D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39337D121954E5F40096974D /* AppDelegate.m in Sources */,
+				39337D331954E6AD0096974D /* MainViewController.m in Sources */,
 				39337D0E1954E5F40096974D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
